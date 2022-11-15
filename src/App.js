@@ -27,17 +27,15 @@ function App() {
                   <div className="Logo-img">
                     <img src={TwitterLogo} className="Soc-logo" />
                   </div>
-                  <div className="Text-wrap">
-                    <p className="Paragraph Link-text">
-                      <a
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        className="Soc-link"
-                      >
-                        TWITTER/username
-                      </a>
-                    </p>
-                  </div>
+                  <p className="Paragraph Link-text">
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      className="Soc-link"
+                    >
+                      TWITTER/username
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -47,17 +45,15 @@ function App() {
                   <div className="Logo-img">
                     <img src={TwitterLogo} className="Soc-logo" />
                   </div>
-                  <div className="Text-wrap">
-                    <p className="Paragraph Link-text">
-                      <a
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        className="Soc-link"
-                      >
-                        TWITTER/username
-                      </a>
-                    </p>
-                  </div>
+                  <p className="Paragraph Link-text">
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      className="Soc-link"
+                    >
+                      TWITTER/username
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -67,17 +63,15 @@ function App() {
                   <div className="Logo-img">
                     <img src={TwitterLogo} className="Soc-logo" />
                   </div>
-                  <div className="Text-wrap">
-                    <p className="Paragraph Link-text">
-                      <a
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        className="Soc-link"
-                      >
-                        TWITTER/username
-                      </a>
-                    </p>
-                  </div>
+                  <p className="Paragraph Link-text">
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      className="Soc-link"
+                    >
+                      TWITTER/username
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -87,17 +81,15 @@ function App() {
                   <div className="Logo-img">
                     <img src={TwitterLogo} className="Soc-logo" />
                   </div>
-                  <div className="Text-wrap">
-                    <p className="Paragraph Link-text">
-                      <a
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        className="Soc-link"
-                      >
-                        TWITTER/username
-                      </a>
-                    </p>
-                  </div>
+                  <p className="Paragraph Link-text">
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      className="Soc-link"
+                    >
+                      TWITTER/username
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -112,22 +104,19 @@ function App() {
               </div>
             </div>
             <div className="Content">
-              <div className="Text-wrap">
-                <p className="Paragraph">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
-                  quisquam recusandae autem voluptate corrupti inventore ad
-                  laborum porro blanditiis accusantium? Cupiditate libero
-                  laborum fugiat molestiae, illum consequatur asperiores
-                  nostrum. Deserunt. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Maiores omnis molestias laboriosam nulla
-                  eveniet laudantium ipsam labore nobis eaque. Alias hic culpa
-                  soluta, ea sit ut accusamus nisi ipsam officiis! Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Dolorum
-                  distinctio facere facilis unde tenetur magnam, est, voluptate
-                  obcaecati voluptates, et veritatis delectus nobis? Rerum amet
-                  id maiores vitae esse nemo.
-                </p>
-              </div>
+              <p className="Paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                quisquam recusandae autem voluptate corrupti inventore ad
+                laborum porro blanditiis accusantium? Cupiditate libero laborum
+                fugiat molestiae, illum consequatur asperiores nostrum.
+                Deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Maiores omnis molestias laboriosam nulla eveniet
+                laudantium ipsam labore nobis eaque. Alias hic culpa soluta, ea
+                sit ut accusamus nisi ipsam officiis! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Dolorum distinctio facere facilis
+                unde tenetur magnam, est, voluptate obcaecati voluptates, et
+                veritatis delectus nobis? Rerum amet id maiores vitae esse nemo.
+              </p>
             </div>
           </div>
         </div>
@@ -144,19 +133,17 @@ function App() {
               </div>
             </div>
             <div className="Content">
-              <div className="Text-wrap">
-                <p>
-                  SCHOOL NAME <br />
-                  2000-2012 <br />
-                  Degree
-                </p>
-                <div className="Gray-line-short"></div>
-                <p>
-                  SCHOOL NAME <br />
-                  2000-2012 <br />
-                  Degree
-                </p>
-              </div>
+              <p>
+                SCHOOL NAME <br />
+                2000-2012 <br />
+                Degree
+              </p>
+              <div className="Gray-line-short"></div>
+              <p>
+                SCHOOL NAME <br />
+                2000-2012 <br />
+                Degree
+              </p>
             </div>
           </div>
 
@@ -286,48 +273,48 @@ function App() {
 
       <div class="Gray-line-full"></div>
 
-        <footer className="Footer">
-          <div className="Footer-block">
-            <h3 className="Footer-title">Address</h3>
-            <p className="Footer-block-details">
-              Street 28-15
-              <br />
-              Vilnius, Lietuva
-            </p>
-          </div>
-          <div className="Footer-block">
-            <h3 className="Footer-title">Kontaktai</h3>
-            <p className="Footer-block-details">
-              <a href="mailto:karolis@gmail.com" className="Footer-block-link">
-                karolis@gmail.com
-              </a>
-              <br />
-              <a href="tel:+37061621885" className="Footer-block-link">
-                +37061621885
-              </a>
-            </p>
-          </div>
-          <div className="Footer-block">
-            <h3 className="Footer-title">Social</h3>
-            <p className="Footer-block-details">
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                className="Footer-block-link"
-              >
-                Twitter
-              </a>
-              <br />
-              <a
-                href="https://facebook.com/"
-                target="_blank"
-                className="Footer-block-link"
-              >
-                Facebook
-              </a>
-            </p>
-          </div>
-        </footer>
+      <footer className="Footer">
+        <div className="Footer-block">
+          <h3 className="Footer-title">Address</h3>
+          <p className="Footer-block-details">
+            Street 28-15
+            <br />
+            Vilnius, Lietuva
+          </p>
+        </div>
+        <div className="Footer-block">
+          <h3 className="Footer-title">Kontaktai</h3>
+          <p className="Footer-block-details">
+            <a href="mailto:karolis@gmail.com" className="Footer-block-link">
+              karolis@gmail.com
+            </a>
+            <br />
+            <a href="tel:+37061621885" className="Footer-block-link">
+              +37061621885
+            </a>
+          </p>
+        </div>
+        <div className="Footer-block">
+          <h3 className="Footer-title">Social</h3>
+          <p className="Footer-block-details">
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              className="Footer-block-link"
+            >
+              Twitter
+            </a>
+            <br />
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              className="Footer-block-link"
+            >
+              Facebook
+            </a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
