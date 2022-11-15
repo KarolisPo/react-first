@@ -8,7 +8,7 @@ function App() {
       <div className="Header-color-block"></div>
       <header className="Header">
         <h1 className="Header-h1">Karolis Pociūnas</h1>
-        <h2 className="Header-h2">FrontEnd Programuotojas</h2>
+        <h2 className="Header-h2">FrontEnd Developer</h2>
       </header>
 
       <section>
@@ -135,7 +135,7 @@ function App() {
 
       <section>
         <div className="Education-personal-technical">
-          <div className="Content-wrap Right-block">
+          <div className="Content-wrap">
             <div className="Content-header">
               <h3 className="Block-title">Education</h3>
               <div className="Fancy-line">
@@ -160,7 +160,7 @@ function App() {
             </div>
           </div>
 
-          <div className="Content-wrap Right-block">
+          <div className="Content-wrap">
             <div className="Content-header">
               <h3 className="Block-title">Personal skills</h3>
               <div className="Fancy-line">
@@ -170,18 +170,18 @@ function App() {
             </div>
             <div className="Content">
               <div className="My-skill">
-                <p className="My-skill--perfect My-skill-para">teamwork</p>
+                <p className="My-skill-perfect My-skill-para">teamwork</p>
               </div>
               <div className="My-skill">
-                <p className="My-skill--good My-skill-para">communication</p>
+                <p className="My-skill-good My-skill-para">communication</p>
               </div>
               <div clasName="My-skill">
-                <p className="My-skill--viable My-skill-para">organization</p>
+                <p className="My-skill-viable My-skill-para">organization</p>
               </div>
             </div>
           </div>
 
-          <div className="Content-wrap Right-block">
+          <div className="Content-wrap">
             <div className="Content-header">
               <h3 className="Block-title">Technical skills</h3>
               <div className="Fancy-line">
@@ -192,13 +192,13 @@ function App() {
             <div className="Content">
               <div className="Content">
                 <div className="My-skill">
-                  <p className="My-skill--perfect My-skill-para">CSS</p>
+                  <p className="My-skill-perfect My-skill-para">CSS</p>
                 </div>
                 <div className="My-skill">
-                  <p className="My-skill--good My-skill-para">HTML</p>
+                  <p className="My-skill-good My-skill-para">HTML</p>
                 </div>
                 <div clasName="My-skill">
-                  <p className="My-skill--viable My-skill-para">JS</p>
+                  <p className="My-skill-viable My-skill-para">JS</p>
                 </div>
               </div>
             </div>
@@ -206,7 +206,128 @@ function App() {
         </div>
       </section>
 
-      <section></section>
+      <section>
+        <div className="Content-wrap">
+          <div className="Content-header">
+            <h3 className="Block-title">Work Experience</h3>
+            <div className="Fancy-line">
+              <div className="Small-green-block"></div>
+              <div className="Gray-line"></div>
+            </div>
+          </div>
+          <div className="Content">
+            <div className="Work-exp-wrap">
+              <div className="Work-exp-block">
+                <div className="Exp-info-wrap">
+                  <p className="Work-exp-title">
+                    <span className="Bold-title">JOB POSITION</span>
+                    <br />
+                    Company <br />
+                    2018 - presenet
+                  </p>
+                  <p className="Work-exp-about">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia rem ipsam, voluptas cumque veniam ipsum non vel
+                    numquam? Sed consectetur, velit ex possimus eaque a tempore
+                    rem ullam non deserunt?
+                  </p>
+                </div>
+                <ul className="Work-exp-tasks" type="disc">
+                  <li>Dalykas</li>
+                  <li>Dalykas2</li>
+                </ul>
+              </div>
+
+              <div className="Work-exp-block">
+                <div className="Exp-info-wrap">
+                  <p className="Work-exp-title">
+                    <span className="Bold-title">JOB POSITION</span>
+                    <br />
+                    Company <br />
+                    2018 - presenet
+                  </p>
+                  <p className="Work-exp-about">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia rem ipsam, voluptas cumque veniam ipsum non vel
+                    numquam? Sed consectetur, velit ex possimus eaque a tempore
+                    rem ullam non deserunt?
+                  </p>
+                </div>
+                <ul className="Work-exp-tasks" type="disc">
+                  <li>Dalykas</li>
+                  <li>Dalykas2</li>
+                </ul>
+              </div>
+
+              <div className="Work-exp-block">
+                <div className="Exp-info-wrap">
+                  <p className="Work-exp-title">
+                    <span className="Bold-title">JOB POSITION</span>
+                    <br />
+                    Company <br />
+                    2018 - presenet
+                  </p>
+                  <p className="Work-exp-about">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia rem ipsam, voluptas cumque veniam ipsum non vel
+                    numquam? Sed consectetur, velit ex possimus eaque a tempore
+                    rem ullam non deserunt?
+                  </p>
+                </div>
+                <ul className="Work-exp-tasks" type="disc">
+                  <li>Dalykas</li>
+                  <li>Dalykas2</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="Gray-line-full"></div>
+
+        <footer className="Footer">
+          <div className="Footer-block">
+            <h3 className="Footer-title">Address</h3>
+            <p className="Footer-block-details">
+              Street 28-15
+              <br />
+              Vilnius, Lietuva
+            </p>
+          </div>
+          <div className="Footer-block">
+            <h3 className="Footer-title">Kontaktai</h3>
+            <p className="Footer-block-details">
+              <a href="mailto:karolis@gmail.com" className="Footer-block-link">
+                karolis@gmail.com
+              </a>
+              <br />
+              <a href="tel:+37061621885" className="Footer-block-link">
+                +37061621885
+              </a>
+            </p>
+          </div>
+          <div className="Footer-block">
+            <h3 className="Footer-title">Social</h3>
+            <p className="Footer-block-details">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                className="Footer-block-link"
+              >
+                Twitter
+              </a>
+              <br />
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                className="Footer-block-link"
+              >
+                Facebook
+              </a>
+            </p>
+          </div>
+        </footer>
     </div>
   );
 }
