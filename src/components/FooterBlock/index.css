@@ -1,0 +1,21 @@
+.Footer-title {
+  width: 248px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.Footer-block-details {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Footer-block-link:hover {
+  color: #7abcac;
+}

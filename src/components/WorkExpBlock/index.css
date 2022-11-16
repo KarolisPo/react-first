@@ -1,0 +1,26 @@
+.Work-exp-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.Work-exp-title {
+  text-align: center;
+  line-height: 29px;
+  font-weight: 300;
+}
+
+.Bold-title {
+  font-weight: 600;
+}
+
+.Work-exp-about {
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.Work-exp-tasks {
+  padding: 15px 0 0 25px;
+  font-weight: 600;
+}

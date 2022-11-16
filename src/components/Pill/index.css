@@ -1,0 +1,22 @@
+.My-skill {
+  margin: 15px 0 15px 0;
+}
+
+.My-skill-para {
+  border-radius: 10px;
+  display: inline;
+  padding: 0 20px 0 20px;
+  text-transform: uppercase;
+}
+
+.My-skill-perfect {
+  background-color: #d8da79;
+}
+
+.My-skill-good {
+  background-color: #7abcac;
+}
+
+.My-skill-viable {
+  background-color: #c29486;
+}
